@@ -1,0 +1,44 @@
+.name { 
+    padding: 20px 5px 15px 5px;
+    margin: auto;
+    font-family: Rancho, monospace;
+    font-size: 25px;
+}
+img {
+    height: 200px;
+    width: 300px;
+    border: 1px;
+    margin: auto;
+    padding: 5px;
+}
+.text_box { /* Properties for information segment */
+    border: 1px solid #EDE580;
+    width: 284px;
+    padding: 3px 8px 3px 8px;
+    margin: auto;
+    text-align: justify;
+    font-family: calibri, serif;
+}
+.container { /* Properties for the box which contains all the elements */
+    width: 310px;
+    border: 3px solid #EDE580;
+    padding: 5px 5px 8px 5px;
+    box-shadow: 5px 5px #EDE580;
+    background-color: #A4AF69
+}
+#interesting { /* id for the must interesting fact */
+    font-style: italic;
+    
+}
+span { /* ul labels */
+    font-weight: bold;
+    text-align: left;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    text-align: justify;
+}
